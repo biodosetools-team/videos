@@ -1,0 +1,99 @@
+0:00:00.480,0:00:03.840
+Hola i benvinguts a la guia d'instal·lació de Biodose Tools
+
+0:00:05.360,0:00:10.560
+Per instal·lar Biodose Tools al vostre sistema local,
+seguirem el lloc web "User Guide & Documentation"
+
+0:00:12.080,0:00:16.400
+Enllaços per baixar R i RStudio són disponibles
+a la secció "Getting Biodose Tools"
+
+0:00:17.040,0:00:21.040
+Primer haurem de baixar R; obrirem
+l'enllaç de CRAN a una altra pestanya
+
+0:00:21.040,0:00:24.000
+Si ens desplacem cap avall veurem l'enllaç per baixar l'RStudio
+
+0:00:24.720,0:00:27.360
+Per baixar R, feu clic a "Download R for Windows"
+
+0:00:29.360,0:00:32.640
+Per baixar RStudio, feu clic a "Download RStudio for Windows"
+
+0:00:35.600,0:00:40.700
+Un cop finalitzades les baixades, obriu la carpeta
+de Baixades i executeu el l'instal·lador de R
+
+0:00:44.560,0:00:48.080
+Seguiu les instruccions i espereu fins que hagi finalitzat la instal·lació
+
+0:00:55.200,0:00:58.534
+Depenent de la velocitat de l'ordinador, això trigarà un parell de minuts
+
+0:01:02.640,0:01:07.367
+Un cop instal·lat R, obriu l'instal·lador d'RStudio a la carpeta de Baixades
+
+0:01:12.480,0:01:16.367
+Seguiu les instruccions i espereu fins que finalitzi la instal·lació
+
+0:01:23.200,0:01:26.720
+Amb això hem conclòs la instal·lació de R i RStudio
+
+0:01:26.720,0:01:29.120
+i estem preparats per instal·lar Biodose Tools
+
+0:01:29.680,0:01:32.200
+Primer de tot, haurem d'obrir RStudio
+
+0:01:35.520,0:01:36.900
+Després que hagi carregat la sessió,
+
+0:01:36.900,0:01:43.700
+escriviu install.packages("devtools") a la consola per poder instal·lar
+la versió per a desenvolupadors de Biodose Tools de GitHub
+
+0:02:10.480,0:02:12.800
+Per instal·lar Biodose Tools escriviu
+
+0:02:12.800,0:02:25.800
+devtools::install_github("biodosetools-team/biodosetools")
+
+0:02:39.840,0:02:43.120
+Durant la instal·lació s'ens demanarà que actualitzem alguns paquets;
+
+0:02:43.680,0:02:46.640
+simplement podem respondre 3 per actualitzar-ne cap
+
+0:02:48.000,0:02:52.080
+Ara RStudio instal·larà totes les dependències
+necessàries per executar Biodose Tools
+
+0:02:52.640,0:02:57.867
+En funció del sistema operatiu i la velocitat de l'ordinador,
+aquest procés trigarà uns minuts més
+
+0:03:11.280,0:03:15.167
+Un cop finalitzada la instal·lació, veureu "DONE" a la consola
+
+0:03:18.240,0:03:22.000
+Ara executarem Biodose Tools per primera vegada a RStudio
+
+0:03:22.800,0:03:30.434
+Un cop oberta la sessió, podeu escriure
+biodosetools::run_app() i prémer la tecla Enter
+
+0:03:34.080,0:03:38.160
+A la pàgina inicial veurem els botons de
+"Codi font", "Documentació" i "Informeu d'un problema"
+
+0:03:38.880,0:03:43.034
+A la barra lateral podem veure els diferents mòduls
+per a cada assaig d'aberració
+
+0:03:48.560,0:03:51.120
+Per sortir de Biodose Tools, tanqueu la finestra
+
+0:03:53.440,0:03:55.700
+A continuació, podeu tancar RStudio

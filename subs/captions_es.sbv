@@ -1,0 +1,100 @@
+0:00:00.480,0:00:03.840
+Hola y bienvenidos a la guía de instalación de Biodose Tools
+
+0:00:05.360,0:00:10.560
+Para instalar Biodose Tools en el sistema local,
+seguiremos el sitio web "User Guide & Documentation"
+
+0:00:12.080,0:00:16.400
+Los enlaces para descargar R y RStudio
+están disponibles en la sección "Getting Biodose Tools"
+
+0:00:17.040,0:00:21.040
+Primero, necesitaremos descargar R; abriremos
+el enlace a CRAN en otra pestaña
+
+0:00:21.040,0:00:24.000
+Si nos desplazamos hacia abajo veremos el enlace para descargar RStudio
+
+0:00:24.720,0:00:27.360
+Para descargar R, haga clic en "Descargar R para Windows"
+
+0:00:29.360,0:00:32.640
+Para descargar RStudio, haga clic en "Descargar RStudio para Windows"
+
+0:00:35.600,0:00:40.700
+Una vez que las descargas hayan finalizado, abra la carpeta
+de Descargas y ejecute el instalador de R
+
+0:00:44.560,0:00:48.080
+Siga las instrucciones y espere hasta que haya finalizado la instalación
+
+0:00:55.200,0:00:58.534
+Dependiendo de la velocidad del ordenador, puede tardar un par de minutos
+
+0:01:02.640,0:01:07.367
+Una vez instalado R, abra el instalador de RStudio
+en la carpeta de Descargas
+
+0:01:12.480,0:01:16.367
+Siga las instrucciones y espere a que finalice la instalación
+
+0:01:23.200,0:01:26.720
+Con esto hemos concluido la instalación de R y RStudio
+
+0:01:26.720,0:01:29.120
+y estamos listos para instalar Biodose Tools
+
+0:01:29.680,0:01:32.200
+En primer lugar, necesitaremos abrir RStudio
+
+0:01:35.520,0:01:36.900
+Después de que la sesión haya cargado
+
+0:01:36.900,0:01:43.700
+escriba install.packages("devtools") en la consola para poder instalar
+la versión de desarrollador de Biodose Tools desde GitHub
+
+0:02:10.480,0:02:12.800
+Para instalar Biodose Tools, escriba
+
+0:02:12.800,0:02:25.800
+devtools::install_github("biodosetools-team/biodosetools")
+
+0:02:39.840,0:02:43.120
+Durante la instalación se nos pedirá que actualicemos algunos paquetes;
+
+0:02:43.680,0:02:46.640
+simplemente podemos responder 3 para no actualizar nada
+
+0:02:48.000,0:02:52.080
+Ahora RStudio instalará todas las
+dependencias necesarias para ejecutar Biodose Tools
+
+0:02:52.640,0:02:57.867
+Dependiendo de su sistema operativo y la velocidad de su sistema,
+este proceso tomará unos minutos más
+
+0:03:11.280,0:03:15.167
+Una vez finalizada la instalación, verá "DONE" en la consola
+
+0:03:18.240,0:03:22.000
+Ahora ejecutaremos Biodose Tools por primera vez en RStudio
+
+0:03:22.800,0:03:30.434
+Una vez abierta la sesión, puede escribir
+biodosetools::run_app() y presionar la tecla Enter
+
+0:03:34.080,0:03:38.160
+En la página de inicio veremos los botones de
+"Código fuente", "Documentación" e "Informar problema"
+
+0:03:38.880,0:03:43.034
+En la barra lateral podemos ver los diferentes módulos
+para cada ensayo de aberración
+
+0:03:48.560,0:03:51.120
+Para cerrar Biodose Tools simplemente cierre la ventana
+
+0:03:53.440,0:03:55.700
+Luego puede cerrar RStudio
