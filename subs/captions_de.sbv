@@ -1,0 +1,109 @@
+0:00:00.480,0:00:03.840
+Hallo und willkommen zur Biodose Tools Installationsanleitung
+
+0:00:05.360,0:00:10.560
+Um Biodose Tool auf Ihrem lokalen System zu installieren verwenden
+wir die "User Guide & Documentation" Webseite
+
+0:00:12.080,0:00:16.400
+Links zum Download von R und RStudio findet
+man unter "Getting Biodose Tools"
+
+0:00:17.040,0:00:21.040
+Zuerst müssen wir R herunterladen; hierfür öffnet
+man den CRAN Link in einem anderen Tab
+
+0:00:21.040,0:00:24.000
+Wenn man runterscrollt findet man den Link,
+um RStudio herunterzuladen
+
+0:00:24.720,0:00:27.360
+Um R herunterzuladen auf "Download R for Windows" clicken
+
+0:00:29.360,0:00:32.640
+Um RStudio herunterzuladen auf "Download RStudio" clicken
+
+0:00:35.600,0:00:40.700
+Wenn die Downloads fertig sind, öffnen Sie Ihren Downloads
+Ordner und führen Sie den R Installer aus
+
+0:00:44.560,0:00:48.080
+Folgen Sie den Instruktionen und warten Sie
+bis die Installation beendet ist
+
+0:00:55.200,0:00:58.534
+Dies kann einige Minuten dauern, je nach
+Leistung Ihres PC's
+
+0:01:02.640,0:01:07.367
+Wenn R erfolgreich installiert wurde,
+öffnen Sie den RStudio Installer in Ihrem Download Ordner
+
+0:01:12.480,0:01:16.367
+Folgen Sie wieder den Instruktionen und warten Sie
+bis die Installation beendet ist
+
+0:01:23.200,0:01:26.720
+Hiermit haben wir die Installation von
+R und RStudio beendet
+
+0:01:26.720,0:01:29.120
+und sind bereit, um die Biodose Tools Software zu installieren
+
+0:01:29.680,0:01:32.200
+Zuerst öffnet man RStudio
+
+0:01:35.520,0:01:36.900
+Sobald die Session gestartet wurde
+
+0:01:36.900,0:01:43.700
+geben Sie den Befehl install.packages("devtools") in die Konsole ein,
+um die Biodose Tool Entwicklungsversion von GitHub zu installieren
+
+0:02:10.480,0:02:12.800
+Um Biodose Tool zu installieren, geben Sie
+
+0:02:12.800,0:02:25.800
+devtools::install_github("biodosetools-team/biodosetools")
+
+0:02:39.840,0:02:43.120
+Während der Installation wird man gefragt,
+ob man einige Updates von R Paketen durchführen will
+
+0:02:43.680,0:02:46.640
+man kann einfach 3 Antworten, um keine Updates durchzuführen
+
+0:02:48.000,0:02:52.080
+RStudio installiert nun alle Abhängigkeiten,
+welche für die Biodose Tools Software benötigt werden
+
+0:02:52.640,0:02:57.867
+Abhängig von Ihrem PC und Ihrem System
+kann dies einige Minuten dauern
+
+0:03:11.280,0:03:15.167
+Sobald die Installation beendet wurde
+erscheint "DONE" in der Konsole
+
+0:03:18.240,0:03:22.000
+Jetzt starten wir die Biodose Tools Software
+zum ersteb mal in RStudio
+
+0:03:22.800,0:03:30.434
+Wenn die Session geöffnet wurde, geben Sie biodosetools::run_app()
+ein und drücken dann Enter
+
+0:03:34.080,0:03:38.160
+Auf der Homepage findet man die "Source code", 
+"Documentation", und "Report issue" Buttons
+
+0:03:38.880,0:03:43.034
+Die Sidebar kann verwendet werden,
+um die unterschiedlichen Module für jedes Assay auszuwählen
+
+0:03:48.560,0:03:51.120
+Um die Biodose Tools Software zu beenden,
+kann das Fenster einfach geschlossen werden
+
+0:03:53.440,0:03:55.700
+Jetzt kann RStudio auch beendet werden
