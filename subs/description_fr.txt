@@ -1,0 +1,15 @@
+Guide d'installation de Biodose Tools
+
+Courte vidéo montrant comment installer la version de développement de Biodose Tools à partir du site GitHub sur votre machine locale.
+
+Site web "User Guide & Documentation": https://biodosetools-team.github.io/documentation/
+Biodose Tools sur GitHub: https://github.com/biodosetools-team/biodosetools/
+
+00:00 Bienvenue
+00:05 Télécharger R et RStudio
+00:34 Installer R
+01:02 Installer RStudio
+01:29 Installer devtools
+02:10 Installer Biodose Tools
+03:15 Exécution du Biodose Tools
+03:47 Quitter Biodose Tools
