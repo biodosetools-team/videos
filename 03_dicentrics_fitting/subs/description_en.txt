@@ -1,0 +1,15 @@
+Biodose Tools User Guide: Fitting Dicentrics
+
+Short video showing how to fit a dicentrics curve from a .txt or an Excel file.
+
+User Guide & Documentation website: https://biodosetools-team.github.io/documentation/
+Biodose Tools on GitHub: https://github.com/biodosetools-team/biodosetools/
+
+00:00 Welcome
+00:16 Example of .txt and Excel file
+00:49 Run Biodose Tools
+01:01 Using a .txt file
+01:51 Fitting results
+02:10 Save results
+02:36 Using an Excel file
+03:58 Fitting results

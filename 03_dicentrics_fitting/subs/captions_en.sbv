@@ -1,0 +1,119 @@
+0:00:00.189,0:00:03.667
+Hello and welcome to Biodose Tools User Guide
+
+0:00:04.293,0:00:09.205
+This video explains how to fit a dose-effect curve for dicentrics
+
+0:00:09.205,0:00:14.165
+using as input a .txt file or an Excel file
+
+0:00:22.571,0:00:24.296
+A .txt file looks like this
+
+0:00:24.532,0:00:26.874
+The first column indicates the doses
+to which I've irradiated the blood samples
+
+0:00:27.086,0:00:30.000
+and the rest of columns the number of cells
+with 0, 1 or more dicentrics
+
+0:00:33.405,0:00:35.637
+The Excel file looks similar
+
+0:00:35.882,0:00:39.000
+In the first column you see the doses
+
+0:00:39.000,0:00:43.935
+and the following columns are
+the cells with 0, 1, 2 or more dicentrics
+
+0:00:48.696,0:00:52.791
+To perform the fitting, open RStudio to run Biodose Tools
+
+0:00:53.310,0:00:58.466
+To run Biodose Tools, type biodosetools::run_app()
+on the R console and press Enter
+
+0:01:02.569,0:01:04.349
+Once Biodose Tools has loaded
+
+0:01:04.484,0:01:08.227
+ click on "Dicentrics" on the sidebar and choose "Fitting"
+
+0:01:08.745,0:01:12.900
+Then, click on "Load data from file", and click on "Browse"
+
+0:01:13.136,0:01:17.739
+Select the .txt/.data file you want to load
+
+0:01:19.984,0:01:27.828
+Click on "Generate table" to load the data into Biodose Tools
+
+0:01:28.619,0:01:33.526
+Click on "Calculate parameters" to calculate
+N, X, mean, var, DI, and the u-value
+
+0:01:33.868,0:01:35.896
+Note that overdispersed u-values are highlighted in red
+
+0:01:36.423,0:01:41.442
+Then, choose the linear or the linear-quadratic fitting formula
+
+0:01:41.948,0:01:47.099
+Lastly, select the fitting model
+(the recommended option is "Automatic")
+
+0:01:47.948,0:01:51.000
+To perform the fitting, click on "Calculate fitting"
+
+0:01:51.448,0:01:54.495
+The fitting results can be seen if you scroll down
+
+0:01:55.233,0:02:07.626
+The results contain the fitting parameters, fitting coefficients,
+summary statistics, and dose-effect fitting curve
+
+0:02:10.741,0:02:14.042
+To save the results click on "Save fitting data"
+
+0:02:14.396,0:02:17.657
+and select the directory where you want to save the .rds file
+
+0:02:18.000,0:02:23.641
+The .rds format is used by Biodose Tools
+to perform dose estimations from your fitting curve
+
+0:02:36.700,0:02:40.953
+Now we will repeat the process with an Excel file
+
+0:02:45.681,0:02:49.394
+First of all, make sure to uncheck the "Load data from a file" option
+
+0:02:49.759,0:02:54.506
+Check the number of doses and
+the maximum number of dicentrics per cell
+
+0:02:54.950,0:03:04.604
+and make sure they match your data
+
+0:03:05.476,0:03:14.383
+You can change these values manually
+
+0:03:15.308,0:03:21.375
+Click on "Generate table" to create an empty table
+
+0:03:23.248,0:03:27.768
+Copy the doses from your Excel file
+
+0:03:30.079,0:03:34.305
+and paste them under D (Gy) on the table
+
+0:03:42.075,0:03:48.701
+Copy the information of the cells from your Excel file
+
+0:03:49.388,0:03:52.692
+and paste it under C0 on the table
+
+0:03:53.010,0:03:57.886
+And now follow the same steps as before
