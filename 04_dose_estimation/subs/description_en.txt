@@ -1,0 +1,16 @@
+Biodose Tools User Guide: Dose Estimation of a Case
+
+Short video showing how to estimate the dose from a case using the frequency of dicentrics.
+
+User Guide & Documentation website: https://biodosetools-team.github.io/documentation/
+Biodose Tools on GitHub: https://github.com/biodosetools-team/biodosetools/
+
+00:00 Welcome
+00:13 Cell analysis
+00:47 Create .txt file
+01:09 Run Biodose Tools
+01:34 Data input
+02:13 Dose estimation results
+02:27 Save report
+
+Music: https://www.bensound.com
