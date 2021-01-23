@@ -1,0 +1,15 @@
+Biodose工具安装指南
+
+简短的教学影片，将向您展示如何将开发版本的Biodose工具从GitHub安装至您的本地端机器
+
+使用者说明与文件: https://biodosetools-team.github.io/documentation/
+GitHub上的Biodose工具: https://github.com/biodosetools-team/biodosetools/
+
+00:00 欢迎
+00:05 下载R语言与RStudio
+00:34 安装R
+01:02 安装RStudio
+01:29 安装devtools
+02:10 安装Biodose Tools
+03:15 运行Biodose Tools
+03:47 离开Biodose Tools
